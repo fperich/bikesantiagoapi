@@ -1,0 +1,30 @@
+{
+  "name": "bikesantiagoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cacheman": "^2.2.1",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.0.2",
+    "express": "^4.16.4",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.15.6",
+    "firebase-admin": "^7.2.0",
+    "moment": "^2.24.0",
+    "pg": "^7.9.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
